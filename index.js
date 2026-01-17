@@ -4,6 +4,6 @@ if(password == "1234abc"){
   console.log("hello");
 }
 
-const b = 23;
-const b = 27;
-console.log(b);
+const bat = 223;
+const bat = 327;
+console.log(bat);
