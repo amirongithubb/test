@@ -6,3 +6,5 @@ console.log('heyy');
 console.log(a);
 const logger = "log";
 console.log(logger,a+b);
+const aa = 332;
+console.log(aa);
