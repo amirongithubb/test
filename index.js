@@ -4,3 +4,4 @@ const b = 10;
 console.log(a+b);
 console.log('heyy');
 console.log(a);
+const logger = "log";
