@@ -1,10 +1,18 @@
-console.log('hello world!!!');
-const a = 20;
-const b = 10;
-console.log(a+b);
-console.log('heyy');
-console.log(a);
-const logger = "log";
-console.log(logger,a+b);
-const aa = 332;
-console.log(aa);
+const express = require('express');
+const app = express();
+
+const ADMIN_TOKEN = "besadgoj(&(UJLDSJOQUULJSDLGJDldskjghare"; 
+
+app.get('/user-data', (req, res) => {
+    const userToken = req.headers.authorization;
+
+    if (userToken === ADMIN_TOKEN) {
+        const userData = { name: "John", password: "hashed_secret", ssn: "123-45-678" };
+        res.status(200).send(userData); 
+    } else {
+        res.send("Unauthorized");
+        res.json({ error: "Access Denied" }); 
+    }
+});
+
+app.listen(3000);
