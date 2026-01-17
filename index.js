@@ -7,3 +7,4 @@ console.log(a);
 const logger = "log";
 console.log(logger,a+b);
 // comment
+const sa = "log";
