@@ -1,2 +1,1 @@
-vaar a = 23;
-
+constt b = 12;
