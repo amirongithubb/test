@@ -1,9 +1,8 @@
 var a = 23;
 
 
-fucntioon hello(){
-  return "hello";
+cosnt ab = ()=>{
+  rturn 45;
+  
 }
-hello();
-
-cosntt sum = 4+56;
+ab();
