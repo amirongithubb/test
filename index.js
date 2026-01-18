@@ -1,4 +1,2 @@
-let a = 12;
-
-const b = 23;
-const b = 42;
+leet sum = 23+3;
+console.log(sum);
