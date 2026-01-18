@@ -1,8 +1,9 @@
 var a = 23;
 
 
-cosnt ab = ()=>{
-  rturn 45;
-  
+funcstion sum(){
+  return a+23;
+
 }
-ab();
+
+summ();
