@@ -1,1 +1,1 @@
-constt b = 12;
+let a = 12;
